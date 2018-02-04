@@ -104,7 +104,7 @@ class SinglyLinkedList{
 	public static void main(String args[]){
 		SinglyLinkedList myList = new SinglyLinkedList();
 
-
+System.out.println("yello");
 		myList.insertHead(5);
 		myList.insertHead(7);
 		myList.insertHead(10);
