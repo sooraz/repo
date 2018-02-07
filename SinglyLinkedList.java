@@ -107,6 +107,7 @@ class SinglyLinkedList{
 System.out.println("yello");
 		myList.insertHead(5);
 		myList.insertHead(7);
+                myList.display();    
 		myList.insertHead(10);
 
 		myList.display(); // 10(head) --> 7 --> 5
@@ -114,6 +115,8 @@ System.out.println("yello");
 		myList.deleteHead();
 
 		myList.display(); // 7(head) --> 5
+               myList.deleteHead();
+              myList.display();
 	}
 }
 
