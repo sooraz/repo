@@ -115,8 +115,7 @@ System.out.println("yello");
 		myList.deleteHead();
 
 		myList.display(); // 7(head) --> 5
-               myList.deleteHead();
-              myList.display();
+               
 	}
 }
 
